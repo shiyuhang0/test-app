@@ -1,6 +1,7 @@
 import { connect } from '@planetscale/database'
 import {NextRequest, NextResponse} from "next/server";
 import {ipAddress} from "@vercel/edge";
+export const runtime = 'edge'
 
 export async function GET(request: NextRequest) {
   const config = {
