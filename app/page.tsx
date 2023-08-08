@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { connect } from '@shiyuhang0/serverless-js'
+import { connect } from '@shiyuhang0/serverless'
 
 async function getDB() {
   const conn = connect({url: process.env.TIDB_URL})
