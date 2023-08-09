@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { connect } from '@shiyuhang0/serverless'
+import { connect } from '@shiyuhang0/serverless-js'
 export const runtime = 'edge'
 
 export async function GET(request: NextRequest) {
